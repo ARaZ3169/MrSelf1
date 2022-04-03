@@ -1,0 +1,61 @@
+@client.on(events.NewMessage(pattern=r"\ (.*)", outgoing=True))
+async def RANDOMreact(event):
+    if event.fwd_from:
+        return
+    input_str = event.pattern_match.group(1)
+    if input_str in "###":
+    #جای س تا هشتگ دستور دلخاهتونو بزارید
+        emoticons = [
+            "",
+            "",
+            #هر چنتا که بخاید میتونید اضاف کنید و هروقت دستورش ارسال شه رندوم یکی انتخاب میشه
+        ]
+
+
+#محل جایگذاریش بین 
+#add1 و #add2 هست
+
+
+این تیکه کد هرچقدر خاستید میتونید ازش توی این سورس کلون کنید و دستورای مختلف روش بزارید
+
+
+_______________________________
+
+@client.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
+
+async def OSinfo(event):
+
+    if event.fwd_from:
+
+        return
+
+    animation_interval = 0.5
+
+    animation_ttl = range(0, 11)
+# عدد 11 نشون دهنده لیمیت انیمیشنتون هس ادامه میگم ب چ دردتون میخوره
+    input_str = event.pattern_match.group(1)
+
+    if input_str == "###":
+# جای س تا هشتگ دستور دلخواهتونو بزارید
+        await event.edit(input_str)
+
+        animation_chars = [
+        
+            "` `",
+            "` `",
+#اینجا به تعداد دلخواهتون از این چیزا میزارید که ی اکشن سرگرمی مثل  سلفای میدلاین باشه
+#دقت کنید اون 11 بالا واس همینه نسبت به اون عدد تعدادشونو تنظیم کنید
+#مثلن عدد 3 هست س تا "` `", میزنیم
+        ]
+
+        for i in animation_ttl:
+
+            await asyncio.sleep(animation_interval)
+
+            await event.
+edit(animation_chars[i % 11])
+
+#این تیکه کدو بین 
+#add3 و #add4 بزارید
+
+______________________________

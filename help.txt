@@ -1,0 +1,34 @@
+###1 = 
+api id
+###2 =
+api hash
+###3 = 
+ایدی عددی ادمین
+
+YouTube : Mr Self 
+____________________________
+
+pip install telethon
+apt update -y
+apt install git -y 
+apt install ffmpeg -y 
+pip3 install asyncio 
+pip3 install logging 
+pip3 install gtts pip3 
+pip3 install aiohttp 
+____________________________
+
+YouTube : Mr Self 
+_______________________
+
+فایل up.txt رو هم چک کنید
+
+_______________________
+
+سورس کاملا تست شده هس بدون کوچکترین باگ
+دیکد هس و میتونید راحت شخصی سازیش کنید
+
+بخش راهنما قسمت سرگرمی ها رو هم کامل کنید
+
+
+
